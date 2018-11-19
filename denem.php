@@ -3,3 +3,7 @@
 echo "test 123";
 
 echo phpinfo();
+echo phpinfo();
+
+
+
