@@ -13,6 +13,7 @@ class StokController extends Controller
         
         //Deneme içerik eklendi
         
+        $name = "test git test";
       
 
         return Stok::where("stokno",">",0)->limit(20)->get();
