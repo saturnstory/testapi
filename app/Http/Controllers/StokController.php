@@ -12,8 +12,7 @@ class StokController extends Controller
         Uretici::limit(100)->get();
         
         //Deneme içerik eklendi
-        
-      
+        $deneme="test";
 
         return Stok::where("stokno",">",0)->limit(20)->get();
 
